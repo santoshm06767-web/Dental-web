@@ -1,0 +1,6 @@
+{
+  "name": "Arogya Dental Care & Implant Centre",
+  "description": "Comprehensive dental clinic practice and reception management system featuring cash collection, money receipts, doctor disbursements, clinic expense accounting, appointment queue, and Supabase cloud persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

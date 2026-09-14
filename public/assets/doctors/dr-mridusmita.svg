@@ -1,0 +1,243 @@
+<svg xmlns="https://drive.google.com/file/d/1SPV3q1oUrf95MgZCDnWg1YGD1qhG1VdT/view?usp=sharing" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <!-- Background Cafe Interior Gradients -->
+    <linearGradient id="cafe-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f1510"/>
+      <stop offset="40%" stop-color="#2c1e16"/>
+      <stop offset="100%" stop-color="#110a07"/>
+    </linearGradient>
+
+    <!-- Warm Golden Bokeh & String Lights from Cafe Background -->
+    <radialGradient id="bokeh-warm" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#f59e0b" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#b45309" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bokeh-soft" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fed7aa" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#ea580c" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#7c2d12" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="neon-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffbeb" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#fef08a" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#f59e0b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Skin Tone Gradients for Dr. Mridusmita Pathak -->
+    <linearGradient id="skin-base" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbe4cf"/>
+      <stop offset="35%" stop-color="#f5cda8"/>
+      <stop offset="75%" stop-color="#e2ab7f"/>
+      <stop offset="100%" stop-color="#c98a5a"/>
+    </linearGradient>
+
+    <radialGradient id="face-glow" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#fff0e1" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#f7d4b4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#df9e6e" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="neck-shadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a66e44"/>
+      <stop offset="60%" stop-color="#c98d5f"/>
+      <stop offset="100%" stop-color="#e8b78c"/>
+    </linearGradient>
+
+    <!-- Hair Color -->
+    <linearGradient id="hair-main" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#31221a"/>
+      <stop offset="30%" stop-color="#1e130d"/>
+      <stop offset="75%" stop-color="#100a06"/>
+      <stop offset="100%" stop-color="#070402"/>
+    </linearGradient>
+    <linearGradient id="hair-highlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1c110b"/>
+      <stop offset="50%" stop-color="#4e3525"/>
+      <stop offset="100%" stop-color="#1c110b"/>
+    </linearGradient>
+
+    <!-- Denim Jacket Gradients -->
+    <linearGradient id="denim-main" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a7195"/>
+      <stop offset="35%" stop-color="#355a7e"/>
+      <stop offset="75%" stop-color="#244463"/>
+      <stop offset="100%" stop-color="#173149"/>
+    </linearGradient>
+    <linearGradient id="denim-collar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5881a7"/>
+      <stop offset="100%" stop-color="#305273"/>
+    </linearGradient>
+
+    <!-- Cognac Brown Leather Bag Strap -->
+    <linearGradient id="leather-strap" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9a572c"/>
+      <stop offset="50%" stop-color="#7c3f1a"/>
+      <stop offset="100%" stop-color="#54280d"/>
+    </linearGradient>
+
+    <!-- Gold Chain -->
+    <linearGradient id="gold-necklace" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ca8a04"/>
+      <stop offset="50%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+
+    <clipPath id="avatar-clip">
+      <rect width="400" height="400" rx="36"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#avatar-clip)">
+    <!-- Cafe Background -->
+    <rect width="400" height="400" fill="url(#cafe-bg)"/>
+
+    <!-- Blurred Cafe Lights & Fixtures in Background -->
+    <g opacity="0.75">
+      <!-- Vertical fairy string lights hanging in background (from photo) -->
+      <line x1="75" y1="0" x2="75" y2="170" stroke="#fef08a" stroke-width="1.8" stroke-dasharray="2,6" opacity="0.5"/>
+      <line x1="120" y1="0" x2="120" y2="140" stroke="#fde047" stroke-width="1.8" stroke-dasharray="3,8" opacity="0.45"/>
+      <line x1="160" y1="0" x2="160" y2="110" stroke="#fef08a" stroke-width="1.8" stroke-dasharray="2,7" opacity="0.4"/>
+      <line x1="280" y1="0" x2="280" y2="90" stroke="#fde047" stroke-width="1.8" stroke-dasharray="3,7" opacity="0.4"/>
+
+      <!-- Golden Warm Bokeh Orbs -->
+      <circle cx="85" cy="80" r="35" fill="url(#bokeh-warm)"/>
+      <circle cx="140" cy="45" r="22" fill="url(#bokeh-soft)"/>
+      <circle cx="45" cy="180" r="28" fill="url(#bokeh-soft)"/>
+      <circle cx="340" cy="95" r="55" fill="url(#bokeh-warm)"/>
+      <circle cx="370" cy="160" r="30" fill="url(#bokeh-soft)"/>
+
+      <!-- Illuminated 'si' Cafe Signage (upper right background in photo) -->
+      <circle cx="330" cy="115" r="45" fill="url(#neon-glow)" opacity="0.5"/>
+      <text x="312" y="128" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="38" fill="#fef08a" opacity="0.65" letter-spacing="1">si</text>
+    </g>
+
+    <!-- BACK HAIR (behind shoulders and neck) -->
+    <path d="M95 140 C60 170 45 250 50 350 C65 375 115 380 135 370 C125 295 120 215 130 170 Z" fill="url(#hair-main)"/>
+    <path d="M295 140 C325 170 350 250 345 350 C330 375 280 380 260 370 C270 295 275 215 265 170 Z" fill="url(#hair-main)"/>
+
+    <!-- TORSO & DENIM JACKET (as in uploaded reference photo) -->
+    <!-- Inner Dark Top -->
+    <path d="M165 285 C178 312 205 315 235 285 L228 400 L170 400 Z" fill="#18181b"/>
+
+    <!-- Gold Chain Necklace at throat -->
+    <path d="M176 295 C190 314 212 314 226 295" stroke="url(#gold-necklace)" stroke-width="2.2" fill="none"/>
+    <circle cx="201" cy="309" r="2.2" fill="#fef08a"/>
+
+    <!-- Brown Leather Bag Strap over Left Shoulder (viewer's right, prominent in photo) -->
+    <path d="M296 320 C320 340 338 375 350 400 L320 400 C310 375 295 350 278 335 Z" fill="url(#leather-strap)" opacity="0.95"/>
+    <path d="M298 322 C321 342 339 376 351 400" stroke="#fcd34d" stroke-width="1.2" stroke-dasharray="3,2" fill="none" opacity="0.4"/>
+
+    <!-- Denim Jacket Body -->
+    <path d="M48 400 C58 325 112 278 200 278 C288 278 342 325 352 400 Z" fill="url(#denim-main)"/>
+
+    <!-- Denim Seams & Stitching -->
+    <path d="M110 355 L135 400" stroke="#fcd34d" stroke-width="1.8" stroke-dasharray="4,3" fill="none" opacity="0.75"/>
+    <path d="M288 355 L265 400" stroke="#fcd34d" stroke-width="1.8" stroke-dasharray="4,3" fill="none" opacity="0.75"/>
+
+    <!-- Distinctive Circular Patch with '7' on right chest (viewer's left, exact from photo) -->
+    <g transform="translate(104, 356)">
+      <circle cx="0" cy="0" r="18" fill="#111827" stroke="#f1f5f9" stroke-width="2.2"/>
+      <circle cx="0" cy="0" r="14.5" fill="#030712"/>
+      <text x="0" y="6.5" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="18" fill="#f8fafc" text-anchor="middle">7</text>
+    </g>
+
+    <!-- Applique Badge on left chest (viewer's right, exact from photo) -->
+    <g transform="translate(282, 348)">
+      <rect x="-18" y="-12" width="36" height="24" rx="8" fill="#111827" stroke="#e2e8f0" stroke-width="1.8"/>
+      <path d="M-12 0 L12 0" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-9 5 L9 5" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Denim Collars (pointed denim jacket lapels) -->
+    <!-- Left Collar -->
+    <path d="M118 305 L176 280 L160 350 L108 355 Z" fill="url(#denim-collar)"/>
+    <path d="M174 284 L158 345" stroke="#fcd34d" stroke-width="2" stroke-dasharray="4,3" fill="none"/>
+    <!-- Right Collar -->
+    <path d="M282 305 L224 280 L240 350 L292 355 Z" fill="url(#denim-collar)"/>
+    <path d="M226 284 L242 345" stroke="#fcd34d" stroke-width="2" stroke-dasharray="4,3" fill="none"/>
+
+    <!-- Denim Metallic Buttons -->
+    <circle cx="198" cy="358" r="6.5" fill="#94a3b8" stroke="#334155" stroke-width="1.5"/>
+    <circle cx="198" cy="358" r="4.5" fill="#64748b"/>
+    <circle cx="198" cy="392" r="6.5" fill="#94a3b8" stroke="#334155" stroke-width="1.5"/>
+
+    <!-- NECK & JAW SHADOW -->
+    <path d="M172 205 C172 255 228 255 228 205 L228 290 C215 300 185 300 172 290 Z" fill="url(#skin-base)"/>
+    <path d="M172 218 C185 240 215 240 228 218 C228 250 215 264 200 264 C185 264 172 250 172 218 Z" fill="url(#neck-shadow)"/>
+
+    <!-- HEAD & FACE (Slight natural head-tilt ~3 deg clockwise, matching photo) -->
+    <g transform="rotate(3 200 175)">
+      <!-- Head Contour -->
+      <path d="M132 140 C132 75 268 75 268 140 C268 212 245 248 200 248 C155 248 132 212 132 140 Z" fill="url(#skin-base)"/>
+      <path d="M132 140 C132 75 268 75 268 140 C268 212 245 248 200 248 C155 248 132 212 132 140 Z" fill="url(#face-glow)"/>
+
+      <!-- Cheeks Warm Blush & Natural Smile Dimples -->
+      <ellipse cx="158" cy="184" rx="16" ry="11" fill="#f43f5e" opacity="0.16"/>
+      <ellipse cx="242" cy="184" rx="16" ry="11" fill="#f43f5e" opacity="0.16"/>
+      <path d="M152 195 Q150 205 154 212" stroke="#d97706" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.35"/>
+      <path d="M248 195 Q250 205 246 212" stroke="#d97706" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.35"/>
+
+      <!-- Delicate Nose Stud / Pin on left nostril (prominent detail in photo) -->
+      <circle cx="212" cy="189" r="2.4" fill="#ffffff"/>
+      <circle cx="212" cy="189" r="1.6" fill="#fef08a"/>
+      <circle cx="212.5" cy="188.5" r="0.8" fill="#ffffff"/>
+
+      <!-- Nose Bridge & Nostrils -->
+      <path d="M200 148 Q197 178 195 188 Q191 193 197 196 Q203 196 207 193 Q205 184 203 178" stroke="#b47648" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+
+      <!-- Arched Dark Eyebrows (carefully shaped like photo) -->
+      <path d="M148 143 C160 135 177 137 187 145" stroke="#1c130d" stroke-width="4.2" stroke-linecap="round" fill="none"/>
+      <path d="M252 143 C240 135 223 137 213 145" stroke="#1c130d" stroke-width="4.2" stroke-linecap="round" fill="none"/>
+
+      <!-- Eyes (Almond shaped with eyeliner, warm dark brown irises and catchlights) -->
+      <!-- Left Eye -->
+      <path d="M152 159 C160 153 174 153 182 160 C174 167 160 167 152 159 Z" fill="#ffffff"/>
+      <circle cx="167" cy="160" r="5.6" fill="#24160e"/>
+      <circle cx="167" cy="160" r="3.4" fill="#0d0805"/>
+      <circle cx="165" cy="158" r="1.8" fill="#ffffff"/>
+      <circle cx="168" cy="162" r="0.8" fill="#ffffff" opacity="0.7"/>
+      <!-- Eyeliner & Lashes -->
+      <path d="M149 158 C159 151 174 151 184 159" stroke="#0a0503" stroke-width="3" stroke-linecap="round" fill="none"/>
+      <path d="M152 161 C161 166 174 166 182 161" stroke="#382216" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+      <!-- Right Eye -->
+      <path d="M218 160 C226 153 240 153 248 159 C240 167 226 167 218 160 Z" fill="#ffffff"/>
+      <circle cx="233" cy="160" r="5.6" fill="#24160e"/>
+      <circle cx="233" cy="160" r="3.4" fill="#0d0805"/>
+      <circle cx="231" cy="158" r="1.8" fill="#ffffff"/>
+      <circle cx="234" cy="162" r="0.8" fill="#ffffff" opacity="0.7"/>
+      <!-- Eyeliner & Lashes -->
+      <path d="M216 159 C226 151 241 151 251 158" stroke="#0a0503" stroke-width="3" stroke-linecap="round" fill="none"/>
+      <path d="M218 161 C226 166 239 166 248 161" stroke="#382216" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+      <!-- Radiantly Smiling Lips (natural warm terracotta coral smile from photo) -->
+      <path d="M173 210 C185 206 215 206 227 210 C221 220 208 227 200 227 C192 227 179 220 173 210 Z" fill="#b91c1c"/>
+      <!-- Bright white teeth showing in smile -->
+      <path d="M178 211 C187 215 213 215 222 211 C218 218 182 218 178 211 Z" fill="#ffffff"/>
+      <path d="M171 209 C184 205 216 205 229 209" stroke="#991b1b" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+      <!-- Lower lip highlight & definition -->
+      <path d="M180 221 C189 229 211 229 220 221" stroke="#e11d48" stroke-width="2.6" stroke-linecap="round" fill="none" opacity="0.7"/>
+      <ellipse cx="200" cy="223" rx="8" ry="2" fill="#ffffff" opacity="0.3"/>
+    </g>
+
+    <!-- FRONT HAIR (lush dark wavy locks framing face & shoulders exactly like photo) -->
+    <!-- Forehead side-part hairline swooping across -->
+    <path d="M125 130 C125 60 170 46 200 46 C242 46 276 60 276 130 C276 155 270 175 262 205 C254 180 258 145 250 120 C236 96 205 88 185 94 C164 100 150 115 146 145 C140 175 148 205 140 235 C135 195 125 165 125 130 Z" fill="url(#hair-main)"/>
+    
+    <!-- Hair Volume Sheen -->
+    <path d="M165 68 C185 58 215 58 238 68" stroke="#5c4030" stroke-width="4.5" stroke-linecap="round" fill="none" opacity="0.75"/>
+
+    <!-- Left Flowing Curls over Jacket (Front) -->
+    <path d="M142 200 C135 235 118 275 122 335 C128 360 148 355 150 330 C146 285 156 245 152 210 Z" fill="url(#hair-main)"/>
+    <path d="M128 245 C123 285 126 325 132 350" stroke="#4a3427" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+
+    <!-- Right Flowing Curls over Jacket (Front) -->
+    <path d="M258 200 C265 235 282 275 278 335 C272 360 252 355 250 330 C254 285 244 245 248 210 Z" fill="url(#hair-main)"/>
+    <path d="M272 245 C277 285 274 325 268 350" stroke="#4a3427" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Elegant frame ring -->
+  <rect x="2" y="2" width="396" height="396" rx="36" fill="none" stroke="#0284c7" stroke-width="3.5" opacity="0.9"/>
+</svg>

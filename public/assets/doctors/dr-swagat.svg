@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <!-- Background Horizontal Slatted Wood / Blinds Backdrop (from photo) -->
+    <linearGradient id="wall-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#382921"/>
+      <stop offset="50%" stop-color="#241a14"/>
+      <stop offset="100%" stop-color="#140d0a"/>
+    </linearGradient>
+
+    <!-- Skin Tone Gradients for Dr Swagat -->
+    <linearGradient id="swagat-skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ebd0b9"/>
+      <stop offset="40%" stop-color="#dfbc9c"/>
+      <stop offset="85%" stop-color="#cf9f77"/>
+      <stop offset="100%" stop-color="#b88358"/>
+    </linearGradient>
+
+    <radialGradient id="forehead-glow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#fae7d4" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#dfbc9c" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#cf9f77" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="neck-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9a673f"/>
+      <stop offset="50%" stop-color="#c48e64"/>
+      <stop offset="100%" stop-color="#deb48f"/>
+    </linearGradient>
+
+    <!-- Hair Color -->
+    <linearGradient id="hair-swagat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2f2520"/>
+      <stop offset="50%" stop-color="#1d1613"/>
+      <stop offset="100%" stop-color="#0c0806"/>
+    </linearGradient>
+
+    <!-- White T-Shirt with Scattered Arrow/Chevron Motifs (exact from photo) -->
+    <linearGradient id="tshirt-base" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+
+    <pattern id="arrow-scatter" width="28" height="28" patternUnits="userSpaceOnUse">
+      <!-- Chevron 1: Soft navy -->
+      <path d="M6 8 L10 5 L14 8" stroke="#1e3a8a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.6"/>
+      <!-- Chevron 2: Coral / Orange -->
+      <path d="M20 18 L23 15 L26 18" stroke="#ea580c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.55"/>
+      <!-- Chevron 3: Teal / Sky -->
+      <path d="M18 6 L21 3 L24 6" stroke="#0284c7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.5"/>
+      <!-- Dot / triangle motif -->
+      <path d="M4 22 L7 19 L10 22" stroke="#475569" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.45"/>
+    </pattern>
+
+    <clipPath id="swagat-clip">
+      <rect width="400" height="400" rx="40" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#swagat-clip)">
+    <!-- Background: Dark Horizontal Slats / Blinds Backdrop (from photo) -->
+    <rect width="400" height="400" fill="url(#wall-grad)"/>
+
+    <!-- Horizontal wood acoustic slatted blind lines -->
+    <g stroke="#1a120d" stroke-width="2.5" opacity="0.65">
+      <line x1="0" y1="20" x2="400" y2="20"/>
+      <line x1="0" y1="36" x2="400" y2="36"/>
+      <line x1="0" y1="52" x2="400" y2="52"/>
+      <line x1="0" y1="68" x2="400" y2="68"/>
+      <line x1="0" y1="84" x2="400" y2="84"/>
+      <line x1="0" y1="100" x2="400" y2="100"/>
+      <line x1="0" y1="116" x2="400" y2="116"/>
+      <line x1="0" y1="132" x2="400" y2="132"/>
+      <line x1="0" y1="148" x2="400" y2="148"/>
+      <line x1="0" y1="164" x2="400" y2="164"/>
+      <line x1="0" y1="180" x2="400" y2="180"/>
+      <line x1="0" y1="196" x2="400" y2="196"/>
+      <line x1="0" y1="212" x2="400" y2="212"/>
+      <line x1="0" y1="228" x2="400" y2="228"/>
+      <line x1="0" y1="244" x2="400" y2="244"/>
+      <line x1="0" y1="260" x2="400" y2="260"/>
+    </g>
+
+    <!-- Subtle studio light pool behind subject -->
+    <radialGradient id="center-light" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#4a362a" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#140d0a" stop-opacity="0"/>
+    </radialGradient>
+    <circle cx="200" cy="170" r="140" fill="url(#center-light)"/>
+
+    <!-- SHOULDERS & T-SHIRT (White Patterned T-Shirt from photo) -->
+    <!-- Base T-Shirt Body -->
+    <path d="M50 400 C58 320 110 278 200 278 C290 278 342 320 350 400 Z" fill="url(#tshirt-base)"/>
+    <!-- Overlaid Scattered Micro-Arrow Pattern -->
+    <path d="M50 400 C58 320 110 278 200 278 C290 278 342 320 350 400 Z" fill="url(#arrow-scatter)"/>
+
+    <!-- T-Shirt Crew Neck Collar -->
+    <path d="M162 278 C172 308 228 308 238 278 Z" fill="#e2e8f0"/>
+    <path d="M164 278 C174 304 226 304 236 278" stroke="#cbd5e1" stroke-width="3" fill="none"/>
+
+    <!-- NECK & ADAM'S APPLE -->
+    <path d="M168 200 C168 255 232 255 232 200 L232 290 C215 298 185 298 168 290 Z" fill="url(#swagat-skin)"/>
+    <path d="M168 215 C182 235 218 235 232 215 C232 248 218 262 200 262 C182 262 168 248 168 215 Z" fill="url(#neck-grad)"/>
+
+    <!-- EARS -->
+    <path d="M125 150 C116 150 112 176 118 185 C124 194 130 190 132 178 Z" fill="url(#swagat-skin)"/>
+    <path d="M275 150 C284 150 288 176 282 185 C276 194 270 190 268 178 Z" fill="url(#swagat-skin)"/>
+
+    <!-- HEAD & JAWLINE (Angular masculine jawline from photo) -->
+    <path d="M128 135 C128 75 272 75 272 135 C272 195 250 248 200 252 C150 248 128 195 128 135 Z" fill="url(#swagat-skin)"/>
+    <path d="M128 135 C128 75 272 75 272 135 C272 195 250 248 200 252 C150 248 128 195 128 135 Z" fill="url(#forehead-glow)"/>
+
+    <!-- FOREHEAD & BROWS (Expressive dark eyebrows matching photo) -->
+    <path d="M146 138 C160 133 178 135 186 141" stroke="#1c1613" stroke-width="4.8" stroke-linecap="round" fill="none"/>
+    <path d="M254 138 C240 133 222 135 214 141" stroke="#1c1613" stroke-width="4.8" stroke-linecap="round" fill="none"/>
+
+    <!-- EYES (Warm, calm, direct front-facing dark brown eyes) -->
+    <!-- Left Eye -->
+    <ellipse cx="168" cy="155" rx="9" ry="6.2" fill="#ffffff"/>
+    <circle cx="168" cy="155" r="5.2" fill="#241a14"/>
+    <circle cx="168" cy="155" r="3.2" fill="#0d0805"/>
+    <circle cx="166" cy="153" r="1.6" fill="#ffffff"/>
+    <path d="M158 153 C164 149 174 149 179 153" stroke="#140d0a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Right Eye -->
+    <ellipse cx="232" cy="155" rx="9" ry="6.2" fill="#ffffff"/>
+    <circle cx="232" cy="155" r="5.2" fill="#241a14"/>
+    <circle cx="232" cy="155" r="3.2" fill="#0d0805"/>
+    <circle cx="230" cy="153" r="1.6" fill="#ffffff"/>
+    <path d="M221 153 C226 149 236 149 242 153" stroke="#140d0a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+    <!-- NOSE (Straight defined masculine nose from photo) -->
+    <path d="M200 144 L197 186 C190 188 193 194 200 194 C207 194 210 188 203 186 L201 144" stroke="#ad7547" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- MOUTH & FRIENDLY SMILE -->
+    <path d="M178 214 C188 221 212 221 222 214" stroke="#99583b" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+    <!-- DISTINCTIVE SIGNATURE GOATEE BEARD (Exact from uploaded photo) -->
+    <!-- Moustache (neatly trimmed over upper lip) -->
+    <path d="M182 205 C190 209 198 210 200 210 C202 210 210 209 218 205 C213 209 206 213 200 213 C194 213 187 209 182 205 Z" fill="#140e0a"/>
+
+    <!-- Soul Patch under lower lip -->
+    <polygon points="196,222 204,222 203,230 197,230" fill="#140e0a"/>
+
+    <!-- Chin Goatee Beard (neat rounded pad on the chin matching photo) -->
+    <path d="M182 232 C182 248 192 254 200 254 C208 254 218 248 218 232 C214 242 208 248 200 248 C192 248 186 242 182 232 Z" fill="#140e0a"/>
+    <ellipse cx="200" cy="245" rx="14" ry="7" fill="#140e0a"/>
+
+    <!-- Clean shaved cheek shadow line -->
+    <path d="M148 192 C160 220 178 238 200 244 C222 238 240 220 252 192" stroke="#221812" stroke-width="1.2" stroke-dasharray="2,3" fill="none" opacity="0.3"/>
+
+    <!-- MODERN TEXTURED SPIKY DARK HAIR (exact modern cut from photo) -->
+    <!-- Sides: Short clean taper fade -->
+    <path d="M122 135 C122 75 155 55 200 55 C245 55 278 75 278 135 C278 150 274 158 270 158 C266 135 268 110 262 95 C252 75 230 68 200 68 C170 68 148 75 138 95 C132 110 134 135 130 158 C126 158 122 150 122 135 Z" fill="url(#hair-swagat)"/>
+
+    <!-- Top Spiky Texture & Natural Wave Crown (from photo) -->
+    <path d="M136 78 C144 58 160 42 180 38 C190 35 204 35 215 37 C230 40 248 50 260 65 C264 74 256 70 248 64 C236 56 220 52 205 52 C188 52 172 58 158 66 C148 72 140 76 136 78 Z" fill="#2d221c"/>
+    <path d="M175 42 C185 32 200 32 215 36 C225 39 238 45 245 52 C236 46 224 42 210 40 C195 38 182 40 175 42 Z" fill="#3a2e26"/>
+
+    <!-- Individual hair tufts / spikes for natural texture -->
+    <path d="M165 48 C172 38 182 38 190 42" stroke="#4a3c33" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+    <path d="M192 40 C202 32 214 34 224 39" stroke="#4a3c33" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+    <path d="M220 44 C230 38 240 42 248 48" stroke="#4a3c33" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Elegant outer border ring -->
+  <rect x="2" y="2" width="396" height="396" rx="40" fill="none" stroke="#0ea5e9" stroke-width="4" opacity="0.85"/>
+</svg>
